@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import domain.Employee;
+import other.clientserverwiththread.domain.Employee;
 
 public class EmplyeeDAO {
 	private static List<Employee> clients = Arrays.asList(

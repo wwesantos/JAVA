@@ -1,13 +1,13 @@
 package other.clientserverwiththread.server;
 
+import other.clientserverwiththread.domain.Employee;
+import other.clientserverwiththread.repo.EmplyeeDAO;
+
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.List;
-
-import domain.Employee;
-import repo.EmplyeeDAO;
 
 //ClientHandler class 
 public class ClientHandler extends Thread { 

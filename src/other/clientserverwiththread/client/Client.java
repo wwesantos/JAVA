@@ -1,5 +1,7 @@
 package other.clientserverwiththread.client;
 
+import other.clientserverwiththread.domain.Employee;
+
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -8,7 +10,7 @@ import java.net.Socket;
 import java.util.List;
 import java.util.Scanner;
 
-import domain.Employee;
+
 
 /**
  * Sources
